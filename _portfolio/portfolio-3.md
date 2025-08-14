@@ -1,7 +1,33 @@
 ---
-title: "Bachelor Thesis: Exploring the structure of Attention Layers in Transformer models though the lens of Gaussian Distributions"
-excerpt: "Short description of portfolio item number 3<br/><img src='/images/500x300.png'>"
+title: "Bachelor Thesis: Exploring the Hidden Structures of Attention Layers in Transformer Models through the Lens of Gaussian Distributions"
+excerpt: "Analyzing the mathematics of Attention layers with Random Matriz Theory under a finite-dimensional Gaussian Approximation <br/><img src='/images/bachelor_thesis_image.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Understanding the internal dynamics of Transformer models is challenging.
+ This work aims to provide insights into why this task is so formidable. We
+ theoretically analyze the cornerstone of the surge in Large Language Models:
+ The attention mechanism, which adds an additional layer of complexity to an
+ already opaque black-box model. Gladly, the embedding of human language
+ provides us with sufficient mathematical geometrical structure, which we
+ approximate with Gaussian distributions throughout this work.
+ Insimpleterms,twocorecomponentsofutilizingTransformermodelsremain
+ largely unintelligible to humans: the mathematical structure of the data and
+ that of the learned weight matrices. We try to combine them in the context
+ of an attention layer by intertwining Linear Algebra, Multivariate Statistics,
+ Information Theory, and Random Matrix Theory.
+ A key takeaway from this work is that the concept of ’attention’ in Large
+ Language Models can be easily underestimated. This technique is not just a
+ simple token-matching function; rather, it serves as a sophisticated combiner
+ of marginal probability distributions influenced by their mutual dependen
+cies, allowing the model to manage complex linear combinations through
+ a bilinear form internally. Grasping the mathematical foundations behind
+ attention is a significant step toward comprehending the functioning of Large
+ Language Models.
+ This work is both relatively theoretical and slightly inconvenient in its struc
+ture, stemming from the complexity of this emerging field and the lack of
+ consistent formalism. It finds its place in the intersection of Artificial Intelli
+gence Interpretability and Natural Language Processing, which is yet to grow
+ and manifest as a crucial pillar of Deep Learning Theory.
+
+The Bachelor Thesis is available at [Link]({{ 'files\Bachelor_Thesis_Martin_Wertich.pdf' | relative_url }}){:download}

@@ -22,3 +22,5 @@ show the effectiveness of our pipeline: Models trained on our data
 achieve 0.631 on RewardBench (Lambert et al., 2024) and 0.705 on IFE-
 val (Zhou et al., 2023), which is comparable to models trained on Ul-
 traFeedback data while requiring only half as many annotations.
+
+The poster for the ETH Center Poster seesion is available here: [ETH AI Center Project 2025 Poster]({{ 'files/DSL_Poster_ActiveUltraFeedback.pdf' | relative_url }}){:download}
