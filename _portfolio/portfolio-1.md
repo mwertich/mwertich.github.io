@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "ETH AI Center Project 2025: Active Learning for Sample-Efficient RLHF"
+excerpt: "Development of a RLHF pipeline (similar to UltraFeedback) in order to finetune SFT-LLMs, utilizing Active Learning with various acquisition functions <br/><img src='/images/rlhf_image.png'>"
 collection: portfolio
 ---
 
