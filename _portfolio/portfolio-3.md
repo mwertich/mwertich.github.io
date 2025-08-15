@@ -1,5 +1,5 @@
 ---
-title: "Bachelor Thesis: Exploring the Hidden Structures of Attention Layers in Transformer Models through the Lens of Gaussian Distributions"
+title: "Bachelor Thesis: Exploring the Hidden Structures of Attention Layers in Transformer Models through the Lens of Gaussian Distributions (July 01, 2024)"
 excerpt: "Analyzing the mathematics of Attention layers with Random Matriz Theory under a finite-dimensional Gaussian Approximation <br/><img src='/images/bachelor_thesis_image.png'>"
 collection: portfolio
 ---
@@ -11,7 +11,7 @@ Understanding the internal dynamics of Transformer models is challenging.
  already opaque black-box model. Gladly, the embedding of human language
  provides us with sufficient mathematical geometrical structure, which we
  approximate with Gaussian distributions throughout this work.
- Insimpleterms,twocorecomponentsofutilizingTransformermodelsremain
+ In simple terms,two core components of utilizing Transformer models remain
  largely unintelligible to humans: the mathematical structure of the data and
  that of the learned weight matrices. We try to combine them in the context
  of an attention layer by intertwining Linear Algebra, Multivariate Statistics,
@@ -30,4 +30,4 @@ ture, stemming from the complexity of this emerging field and the lack of
 gence Interpretability and Natural Language Processing, which is yet to grow
  and manifest as a crucial pillar of Deep Learning Theory.
 
-The Bachelor Thesis is available at [Link]({{ 'files\Bachelor_Thesis_Martin_Wertich_2762982.pdf' | relative_url }}){:download}
+The Bachelor Thesis is available at [Bachelor Thesis: Exploring the Hidden Structures of Attention Layers in Transformer Models through the Lens of Gaussian Distributions (July 01, 2024)]({{ 'files\Bachelor_Thesis_Martin_Wertich_2762982.pdf' | relative_url }}){:download}
