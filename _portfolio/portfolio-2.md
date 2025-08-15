@@ -1,5 +1,5 @@
 ---
-title: "Computational Intelligence Lab 2025: Uncertainty-Aware Ensemble for Monocular Depth Estimation 2"
+title: "ETH Computational Intelligence Lab 2025: Uncertainty-Aware Ensemble for Monocular Depth Estimation 2"
 excerpt: "Finetuning a MixtureofExperts-Metamodel for Monocular Depth Estimation by utilizing Epistemic Uncertainty Estimation <br/><img src='/images/cil_image.png'>"
 collection: portfolio
 ---
@@ -27,4 +27,4 @@ tions in a manner consistent with the intuition of
 the expert’s room-type domain knowledge and
 generalizes to ambiguous images.
 
-The GitHub repository is at [Computational Intelligence Lab 2025 Project Repository][https://github.com/mwertich/CIL] and the corresponding report at [Computational Intelligence Lab 2025 Project Report]({{ 'files/' | relative_url }}){:download}
+The GitHub repository is at [Computational Intelligence Lab 2025 Project Repository](https://github.com/mwertich/CIL) and the corresponding report at [Computational Intelligence Lab 2025 Project Report]({{ 'files/CIL_project_report.pdf' | relative_url }}){:download}
