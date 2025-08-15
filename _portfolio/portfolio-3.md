@@ -30,4 +30,4 @@ ture, stemming from the complexity of this emerging field and the lack of
 gence Interpretability and Natural Language Processing, which is yet to grow
  and manifest as a crucial pillar of Deep Learning Theory.
 
-The Bachelor Thesis is available at [Bachelor Thesis: Exploring the Hidden Structures of Attention Layers in Transformer Models through the Lens of Gaussian Distributions (July 01, 2024)]({{ 'files\Bachelor_Thesis_Martin_Wertich_2762982.pdf' | relative_url }}){:download}
+The Bachelor Thesis is available at [Exploring the Hidden Structures of Attention Layers in Transformer Models through the Lens of Gaussian Distributions (July 01, 2024)]({{ 'files/Bachelor_Thesis_Martin_Wertich_2762982.pdf' | relative_url }}){:download}
