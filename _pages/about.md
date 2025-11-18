@@ -9,10 +9,11 @@ redirect_from:
 
 Personal Info
 ======
-Grüezi, I am Martin Wertich, a first-year MSc student in Computer Science at ETH Zurich. 
-I currently work as a Research Assistant at the ETH AI Center, where my student colleagues and I aim to develop an RLHF (Reinforcement Learning from Human Feedback) pipeline for LLMs (Large Language Models) using Active Learning.
+Hi, I am Martin Wertich, a second-year MSc student in Computer Science at ETH Zurich. 
 
 My interests lie in the field of Theoretical Machine Learning with the focus on the mathematical intuition behind it. I am particularly interested in the mathematics of Deep Learning,  Learning Theory, and Optimization Theory. My goal is to pursue a PhD in Machine Learning after completing my Master's degree, to make a small contribution to understanding the inner workings of advanced ML methods, even for non-mathematicians. 
+
+I worked as a Research Assistant at the ETH AI Center until September 2025, where I and my student colleagues developed an RLHF (Reinforcement Learning from Human Feedback) pipeline for LLMs (Large Language Models) using Active Learning.
 
 Research Interests
 ------
@@ -20,6 +21,7 @@ The field of Machine Learning fascinates me the most in Computer Science, as it 
 
 I find it particularly exciting to puzzle over mathematical proofs, even if it is often initially frustrating and takes a tremendous amount of time, because every solved or unsolved proof advances me and prepares me for the next potentially more difficult one.
 I am particularly impressed by the CS research groups at ETH, where doctoral students support their research with  
+
 
 Short Biography
 ------
