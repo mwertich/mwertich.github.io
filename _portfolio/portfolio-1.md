@@ -1,5 +1,5 @@
 ---
-title: "ETH AI Center Projects in Machine Learning Research: Active Learning for Sample-Efficient RLHF"
+title: "ETH AI Center Projects in Machine Learning Research 2025: Active Learning for Sample-Efficient RLHF"
 excerpt: "Development of a RLHF pipeline (similar to UltraFeedback) in order to finetune SFT-LLMs, utilizing Active Learning with various acquisition functions <br/><img src='/images/rlhf_image.png'>"
 collection: portfolio
 ---
