@@ -1,6 +1,6 @@
 ---
 title: "Large-Scale AI Engineering 2026: Mamba, DeltaNet and Torch DDP"
-excerpt: "Custom implementation of the DeltaNet and Mamba SSM, comparing performance/throughput against a Transformer baseline, and testing distributed data parallel (DDP) schemes <br/><img src='/images/files/plot1_ddp1_seq2048.pdf'>"
+excerpt: "Custom implementation of the DeltaNet and Mamba SSM, comparing performance/throughput against a Transformer baseline, and testing distributed data parallel (DDP) schemes <br/><img src='/images/plot1_ddp1_seq2048.png'>"
 collection: portfolio
 ---
 
