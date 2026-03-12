@@ -1,26 +1,18 @@
 ---
-title: "ETH AI Center Projects in Machine Learning Research 2025: Active Learning for Sample-Efficient RLHF"
-excerpt: "Development of a RLHF pipeline (similar to UltraFeedback) in order to finetune SFT-LLMs, utilizing Active Learning with various acquisition functions <br/><img src='/images/rlhf_image.png'>"
+title: "ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning"
+excerpt: "Development of ActiveUltraFeedback, a RLHF pipeline for Preference Data Generation utilizing Active Learning <br/><img src='/images/pipeline_overview.pdf'>"
 collection: portfolio
 ---
 
-Reinforcement Learning from Human Feedback (RLHF) is essential for
-aligning Large Language Models (LLMs) with human preferences and
-values, but creating the preference datasets required for training is
-challenging because it involves recruiting people to annotate data
-manually. The UltraFeedback dataset generation pipeline (Cui et al.,
-2024) successfully reduced this reliance on human labor by using LLM
-annotators to annotate various LLM responses instead. Still, the large
-number of LLM calls it requires can be very costly. This motivates our
-project - using active learning to enhance UltraFeedback’s annota-
-tion efficiency. In contrast to UltraFeedback, which annotates four re-
-sponses per prompt, we train an Uncertainty Reward Model (Osband
-et al., 2023) to predict the utility of the responses, then use Double
-Thompson Sampling (Wu and Liu, 2016) to acquire the most useful
-pair of responses per prompt and annotate them only. Our results
-show the effectiveness of our pipeline: Models trained on our data
-achieve 0.631 on RewardBench (Lambert et al., 2024) and 0.705 on IFE-
-val (Zhou et al., 2023), which is comparable to models trained on Ul-
-traFeedback data while requiring only half as many annotations.
-
-The poster for the ETH Center Poster seesion is available here: [ETH AI Center Project 2025 Poster]({{ 'files/DSL_Poster_ActiveUltraFeedback.pdf' | relative_url }}){:download}
+Reinforcement Learning from Human Feedback (RLHF) has become the standard for aligning Large Language
+Models (LLMs), yet its efficacy is bottlenecked by the high cost of acquiring preference data, especially
+in low-resource and expert domains. To address this, we introduce ACTIVEULTRAFEEDBACK, a modular
+active learning pipeline that leverages uncertainty estimates to dynamically identify the most informative
+responses for annotation. Our pipeline facilitates the systematic evaluation of standard response selection
+methods alongside DOUBLE REVERSE THOMPSON SAMPLING (DRTS) and DELTAUCB, two novel methods
+prioritizing response pairs with large predicted quality gaps, leveraging recent results showing that such pairs
+provide good signals for fine-tuning. Our experiments demonstrate that ACTIVEULTRAFEEDBACK yields
+high-quality datasets that lead to significant improvements in downstream performance, notably achieving
+comparable or superior results with as little as one-sixth of the annotated data relative to static baselines.
+Our pipeline is available at [arXiv](https://github.com/lasgroup/ActiveUltraFeedback )and our preference
+datasets at  [Hugging Face](https://huggingface.co/ActiveUltraFeedback).
