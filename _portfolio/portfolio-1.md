@@ -1,6 +1,6 @@
 ---
 title: "ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning"
-excerpt: "Development of ActiveUltraFeedback, a RLHF pipeline for Preference Data Generation utilizing Active Learning <br/><img src='/images/pipeline_overview.pdf'>"
+excerpt: "Development of ActiveUltraFeedback, a RLHF pipeline for Preference Data Generation utilizing Active Learning <br/><img src='/images/pipeline_overview.png'>"
 collection: portfolio
 ---
 
