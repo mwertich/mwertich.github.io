@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "light"
-title                    : "Martin Wertich"
+title                    : "Portfolio"
 title_separator          : "-"
 name                     : &name "Martin Wertich"
 description              : &description "personal description"

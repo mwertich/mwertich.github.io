@@ -1,6 +1,6 @@
 ---
 title: "ETH Computational Intelligence Lab 2025: Uncertainty-Aware Ensemble for Monocular Depth Estimation 2"
-excerpt: "Finetuning a MixtureofExperts-Metamodel for Monocular Depth Estimation by utilizing Epistemic Uncertainty Estimation <br/><img src='/images/cil_image.png'>"
+excerpt: "Finetuning a MixtureofExperts-Metamodel for Monocular Depth Estimation by utilizing Epistemic Uncertainty Estimation <br/><img src='/images/cil_image.png' height='70%'>"
 collection: portfolio
 ---
 
