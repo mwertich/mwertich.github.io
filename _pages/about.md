@@ -7,11 +7,17 @@ redirect_from:
  - /about.html
 ---
 
-Overview
-======
-Hi, I am Martin Wertich, a second-year MSc student in Computer Science at ETH Zurich with a focus on machine learning theory. My research interests lie at the intersection of learning theory, mathematical statistics, and large randomized systems, with particular emphasis on developing mathematically grounded explanations for modern machine learning methods.
+<div class="home-hero">
+	<p class="home-hero__lead">I am an MSc student in Computer Science at ETH Zurich working on machine learning theory, with a focus on learning-theoretic questions, high-dimensional statistics, and the mathematical structure of modern ML systems.</p>
 
-I am especially interested in questions where rigorous analysis meets practical relevance: why learning algorithms generalize, how complex models behave under uncertainty, and which mathematical structures make modern ML systems expressive and robust. In the long term, I hope to contribute to a clearer theoretical understanding of advanced machine learning methods and to pursue doctoral research in this area.
+	<p class="home-hero__text">My goal is to better understand why advanced learning methods generalize, how they behave under uncertainty, and which mathematical principles make them expressive and robust.</p>
+
+	<div class="home-hero__links">
+		<a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+		<a class="btn btn--inverse" href="{{ '/portfolio/' | relative_url }}">Projects</a>
+		<a class="btn btn--inverse" href="{{ '/files/CV_Martin_Wertich.pdf' | relative_url }}">CV</a>
+	</div>
+</div>
 
 Current Work
 ------

@@ -25,7 +25,7 @@ author:
   avatar           : "PhotoMartin.png"
   name             : "Martin Wertich"
   pronouns         : # example: "she/her"  
-  bio              : "MSc student in Computer Science at ETH Zurich, focusing on machine learning theory"
+  bio              : "MSc student at ETH Zurich working on machine learning theory, statistical learning, and high-dimensional systems"
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich"
   uri              : # URL
@@ -39,7 +39,7 @@ author:
   orcid            : "https://orcid.org/0009-0002-4738-3857"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "https://www.researchgate.net/profile/Martin-Wertich"
+  researchgate     : # URL
   scopus           : # URL
 
   # Repositories and software development
