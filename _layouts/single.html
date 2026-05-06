@@ -83,11 +83,11 @@ layout: default
           {% assign has_project_links = false %}
           {% capture project_links %}
             {% if page.paperurl %}{% assign has_project_links = true %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
-            {% if page.codeurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
-            {% if page.dataseturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.dataseturl }}">Dataset</a>{% endif %}
-            {% if page.reporturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.reporturl }}">Report</a>{% endif %}
-            {% if page.thesisurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.thesisurl }}">Thesis</a>{% endif %}
-            {% if page.posterurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.posterurl }}">Poster</a>{% endif %}
+            {% if page.codeurl %}{% assign has_project_links = true %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
+            {% if page.dataseturl %}{% assign has_project_links = true %}<a href="{{ page.dataseturl }}">Dataset</a>{% endif %}
+            {% if page.reporturl %}{% assign has_project_links = true %}<a href="{{ page.reporturl }}">Report</a>{% endif %}
+            {% if page.thesisurl %}{% assign has_project_links = true %}<a href="{{ page.thesisurl }}">Thesis</a>{% endif %}
+            {% if page.posterurl %}{% assign has_project_links = true %}<a href="{{ page.posterurl }}">Poster</a>{% endif %}
           {% endcapture %}
           {% if has_project_links %}
             <p style="font-size: smaller">{{ project_links | strip }}</p>

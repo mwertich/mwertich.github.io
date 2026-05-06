@@ -91,11 +91,11 @@
       {% assign has_project_links = false %}
       {% capture project_links %}
         {% if post.paperurl %}{% assign has_project_links = true %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
-        {% if post.codeurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
-        {% if post.dataseturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.dataseturl }}">Dataset</a>{% endif %}
-        {% if post.reporturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.reporturl }}">Report</a>{% endif %}
-        {% if post.thesisurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.thesisurl }}">Thesis</a>{% endif %}
-        {% if post.posterurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
+        {% if post.codeurl %}{% assign has_project_links = true %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.dataseturl %}{% assign has_project_links = true %}<a href="{{ post.dataseturl }}">Dataset</a>{% endif %}
+        {% if post.reporturl %}{% assign has_project_links = true %}<a href="{{ post.reporturl }}">Report</a>{% endif %}
+        {% if post.thesisurl %}{% assign has_project_links = true %}<a href="{{ post.thesisurl }}">Thesis</a>{% endif %}
+        {% if post.posterurl %}{% assign has_project_links = true %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
       {% endcapture %}
       {% if has_project_links %}
         <p class="archive__item-links archive__item-links--portfolio">{{ project_links | strip }}</p>
