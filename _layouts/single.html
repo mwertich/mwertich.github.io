@@ -69,6 +69,7 @@ layout: default
           {% capture publication_links %}
             {% if page.paperurl %}{% assign has_publication_links = true %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
             {% if page.bibtexurl %}{% assign has_publication_links = true %}<a href="{{ page.bibtexurl }}">BibTeX</a>{% endif %}
+            {% if page.blogurl %}{% assign has_publication_links = true %}<a href="{{ page.blogurl }}">Blog</a>{% endif %}
             {% if page.codeurl %}{% assign has_publication_links = true %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
             {% if page.dataseturl %}{% assign has_publication_links = true %}<a href="{{ page.dataseturl }}">Dataset</a>{% endif %}
             {% if page.posterurl %}{% assign has_publication_links = true %}<a href="{{ page.posterurl }}">Poster</a>{% endif %}

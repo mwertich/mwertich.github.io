@@ -107,14 +107,15 @@
 
   a {
     display: inline-block;
-    margin: 0 0.5rem 0.5rem 0;
-    padding: 0.38rem 0.8rem;
+    margin: 0 0.65rem 0.65rem 0;
+    padding: 0.52rem 1rem;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 999px;
     background: rgba(0, 0, 0, 0.015);
     text-decoration: none;
-    font-size: $type-size-7;
+    font-size: $type-size-6;
     font-weight: 700;
+    line-height: 1.2;
   }
 
   a:hover {

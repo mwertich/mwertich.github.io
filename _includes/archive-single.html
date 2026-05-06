@@ -77,6 +77,7 @@
       {% capture publication_links %}
         {% if post.paperurl %}{% assign has_publication_links = true %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
         {% if post.bibtexurl %}{% assign has_publication_links = true %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+        {% if post.blogurl %}{% assign has_publication_links = true %}<a href="{{ post.blogurl }}">Blog</a>{% endif %}
         {% if post.codeurl %}{% assign has_publication_links = true %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
         {% if post.dataseturl %}{% assign has_publication_links = true %}<a href="{{ post.dataseturl }}">Dataset</a>{% endif %}
         {% if post.posterurl %}{% assign has_publication_links = true %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
