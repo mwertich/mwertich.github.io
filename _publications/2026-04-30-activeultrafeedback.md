@@ -1,11 +1,11 @@
 ---
 title: "ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: https://arxiv.org/abs/2603.09692
 excerpt: 'ACTIVEULTRAFEEDBACK introduces a modular active learning pipeline that uses uncertainty-aware reward estimates to select informative response pairs, reducing the amount of preference data needed for strong downstream performance.'
 date: 2026-04-30
-venue: 'International Conference on Machine Learning (ICML)}, 2026'
+venue: 'International Conference on Machine Learning (ICML)}'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/pdf/2603.09692'
 bibtexurl: ''
