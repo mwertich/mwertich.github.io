@@ -5,10 +5,9 @@ category: conferences
 permalink: https://arxiv.org/abs/2603.09692
 excerpt: 'ACTIVEULTRAFEEDBACK introduces a modular active learning pipeline that uses uncertainty-aware reward estimates to select informative response pairs, reducing the amount of preference data needed for strong downstream performance.'
 date: 2026-04-30
-venue: 'International Conference on Machine Learning (ICML)}'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+venue: 'International Conference on Machine Learning (ICML)'
 paperurl: 'https://arxiv.org/pdf/2603.09692'
-bibtexurl: ''
+bibtexurl: 'https://arxiv.org/bibtex/2603.09692'
 citation: '@misc{melikidze2026activeultrafeedbackefficientpreferencedata,
       title={ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning}, 
       author={Davit Melikidze and Marian Schneider and Jessica Lam and Martin Wertich and Ido Hakimi and Barna Pásztor and Andreas Krause},
