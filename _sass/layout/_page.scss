@@ -236,7 +236,9 @@
 .home-hero__text {
   max-width: 46rem;
   margin-bottom: 1.1rem;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
+  font-size: $type-size-5;
+  line-height: 1.6;
 }
 
 .home-hero__links {
