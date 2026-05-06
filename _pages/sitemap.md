@@ -9,35 +9,36 @@ author_profile: true
 
 A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
-{% assign visible_pages = site.pages | where_exp: "item", "item.title and item.url != '/sitemap/' and item.url != '/404.html' and item.sitemap != false" | sort: "title" %}
-{% assign visible_posts = site.posts | where_exp: "item", "item.title and item.sitemap != false" | sort: "date" | reverse %}
-
 <h2>Pages</h2>
 <ul>
-{% for item in visible_pages %}
+{% assign sorted_pages = site.pages | sort: "title" %}
+{% for item in sorted_pages %}
+  {% if item.title and item.url != '/sitemap/' and item.url != '/404.html' and item.sitemap != false %}
   <li><a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
 
-{% if visible_posts.size > 0 %}
 <h2>Posts</h2>
 <ul>
-{% for item in visible_posts %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% for item in sorted_posts %}
+  {% if item.title and item.sitemap != false %}
   <li><a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a> <small>({{ item.date | date: "%Y-%m-%d" }})</small></li>
+  {% endif %}
 {% endfor %}
 </ul>
-{% endif %}
 
 {% for collection in site.collections %}
   {% unless collection.output == false or collection.label == "posts" %}
-    {% assign visible_docs = collection.docs | where_exp: "item", "item.title and item.sitemap != false" | sort: "title" %}
-    {% if visible_docs.size > 0 %}
+    {% assign sorted_docs = collection.docs | sort: "title" %}
 <h2>{{ collection.label | capitalize }}</h2>
 <ul>
-      {% for item in visible_docs %}
+      {% for item in sorted_docs %}
+        {% if item.title and item.sitemap != false %}
   <li><a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a></li>
+        {% endif %}
       {% endfor %}
 </ul>
-    {% endif %}
   {% endunless %}
 {% endfor %}
