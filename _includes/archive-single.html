@@ -27,7 +27,9 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
+      {% if post.collection == 'publications' %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
@@ -47,10 +49,10 @@
         {% endif %}
 
     {% if post.collection == 'publications' and post.authors %}
-      <p><strong>Authors:</strong> {{ post.authors }}</p>
+      <p class="archive__item-meta archive__item-meta--publication-authors"><strong>Authors:</strong> {{ post.authors }}</p>
     {% endif %}
     {% if post.collection == 'publications' and post.author_note %}
-      <p style="font-size: smaller; margin-top: -0.75em;"><em>{{ post.author_note }}</em></p>
+      <p class="archive__item-note archive__item-note--publication"><em>{{ post.author_note }}</em></p>
     {% endif %}
     {% if post.collection == 'portfolio' %}
       {% assign has_project_meta = false %}
@@ -81,7 +83,7 @@
         {% if post.slidesurl %}{% if has_publication_links %} | {% endif %}{% assign has_publication_links = true %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
       {% endcapture %}
       {% if has_publication_links %}
-        <p>{{ publication_links | strip }}</p>
+        <p class="archive__item-links archive__item-links--publication">{{ publication_links | strip }}</p>
       {% endif %}
     {% endif %}
 
