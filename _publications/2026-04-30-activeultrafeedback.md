@@ -6,7 +6,8 @@ permalink: /publication/activeultrafeedback/
 excerpt: 'ACTIVEULTRAFEEDBACK introduces a modular active learning pipeline that uses uncertainty-aware reward estimates to select informative response pairs, reducing the amount of preference data needed for strong downstream performance.'
 date: 2026-04-30
 venue: 'International Conference on Machine Learning (ICML)'
-authors: 'Davit Melikidze, Marian Schneider, Jessica Lam, Martin Wertich, Ido Hakimi, Barna Pásztor, and Andreas Krause'
+authors: 'Davit Melikidze<sup>*</sup>, Marian Schneider<sup>*</sup>, Jessica Lam<sup>*</sup>, Martin Wertich<sup>*</sup>, Ido Hakimi, Barna Pásztor, and Andreas Krause'
+author_note: '<sup>*</sup> Equal contribution'
 link: 'https://arxiv.org/abs/2603.09692'
 paperurl: 'https://arxiv.org/pdf/2603.09692'
 bibtexurl: 'https://arxiv.org/bibtex/2603.09692'

@@ -49,6 +49,9 @@
     {% if post.collection == 'publications' and post.authors %}
       <p><strong>Authors:</strong> {{ post.authors }}</p>
     {% endif %}
+    {% if post.collection == 'publications' and post.author_note %}
+      <p style="font-size: smaller; margin-top: -0.75em;"><em>{{ post.author_note }}</em></p>
+    {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
