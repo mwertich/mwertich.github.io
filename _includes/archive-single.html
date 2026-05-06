@@ -60,7 +60,7 @@
         {% if post.project_topics %}{% if has_project_meta %} | {% endif %}{% assign has_project_meta = true %}<strong>Topics:</strong> {{ post.project_topics | join: ", " }}{% endif %}
       {% endcapture %}
       {% if has_project_meta %}
-        <p style="font-size: smaller;">{{ project_meta | strip }}</p>
+        <p class="archive__item-meta archive__item-meta--portfolio">{{ project_meta | strip }}</p>
       {% endif %}
     {% endif %}
 
@@ -96,7 +96,7 @@
         {% if post.posterurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
       {% endcapture %}
       {% if has_project_links %}
-        <p>{{ project_links | strip }}</p>
+        <p class="archive__item-links archive__item-links--portfolio">{{ project_links | strip }}</p>
       {% endif %}
     {% endif %}
 

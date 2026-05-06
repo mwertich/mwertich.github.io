@@ -66,6 +66,18 @@
   }
 }
 
+.archive__item-meta {
+  margin: 0.35rem 0 0.75rem;
+  font-size: $type-size-7;
+  color: var(--global-text-color-light);
+}
+
+.archive__item-links {
+  margin-top: 0.9rem;
+  font-size: $type-size-6;
+  font-weight: 600;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
@@ -104,6 +116,55 @@
 
   .page__meta {
     margin: 0 0 4px;
+  }
+}
+
+.projects-archive {
+  margin-top: 1.5rem;
+}
+
+.projects-archive__intro {
+  margin-bottom: 2.25rem;
+
+  p {
+    max-width: 48rem;
+  }
+}
+
+.projects-archive {
+  .list__item {
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  .list__item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    font-size: $type-size-4;
+    line-height: 1.2;
+  }
+
+  .archive__item-excerpt {
+    margin-top: 0.75rem;
+    line-height: 1.65;
+  }
+
+  .archive__item-meta--portfolio {
+    margin-top: 0.2rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .archive__item-links--portfolio {
+    margin-top: 1rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
   }
 }
 
