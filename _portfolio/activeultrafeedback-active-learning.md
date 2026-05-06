@@ -13,4 +13,4 @@ Our pipeline facilitates the systematic evaluation of standard response selectio
 
 Our experiments demonstrate that ACTIVEULTRAFEEDBACK yields high-quality datasets that lead to significant improvements in downstream performance, notably achieving comparable or superior results with as little as one-sixth of the annotated data relative to static baselines.
 
-The paper is on [arXiV](https://github.com/lasgroup/ActiveUltraFeedback). Our pipeline is available at [GitHub](https://github.com/lasgroup/ActiveUltraFeedback) and our preferenc edatasets at [Hugging Face](https://huggingface.co/ActiveUltraFeedback).
+The paper is on [arXiV](https://arxiv.org/abs/2603.09692). Our pipeline is available at [GitHub](https://github.com/lasgroup/ActiveUltraFeedback) and our preferenc edatasets at [Hugging Face](https://huggingface.co/ActiveUltraFeedback).
