@@ -6,9 +6,9 @@ permalink: /portfolio/bachelor-thesis-transformer-attention/
 project_type: "Bachelor's Thesis"
 project_year: 2024
 project_topics:
-	- Transformer Theory
-	- Attention Mechanisms
-	- Random Matrix Theory
+  - Transformer Theory
+  - Attention Mechanisms
+  - Random Matrix Theory
 thesisurl: '{{ "files/Bachelor_Thesis_Martin_Wertich_2762982.pdf" | relative_url }}'
 ---
 

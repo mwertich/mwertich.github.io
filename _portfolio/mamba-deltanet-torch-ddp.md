@@ -6,9 +6,9 @@ permalink: /portfolio/mamba-deltanet-torch-ddp/
 project_type: 'Course Project'
 project_year: 2026
 project_topics:
-	- State Space Models
-	- Distributed Training
-	- Performance Engineering
+  - State Space Models
+  - Distributed Training
+  - Performance Engineering
 codeurl: 'https://github.com/Timisorean/large-scale-ai-project'
 reporturl: '{{ "files/Large_Scale_AI_Project_Report.pdf" | relative_url }}'
 ---

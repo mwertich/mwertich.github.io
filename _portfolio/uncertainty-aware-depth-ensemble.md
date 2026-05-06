@@ -6,9 +6,9 @@ permalink: /portfolio/uncertainty-aware-depth-ensemble/
 project_type: 'Course Project'
 project_year: 2025
 project_topics:
-	- Computer Vision
-	- Uncertainty Estimation
-	- Ensemble Modeling
+  - Computer Vision
+  - Uncertainty Estimation
+  - Ensemble Modeling
 codeurl: 'https://github.com/mwertich/CIL'
 reporturl: '{{ "files/CIL_project_report.pdf" | relative_url }}'
 ---

@@ -6,9 +6,9 @@ permalink: /portfolio/activeultrafeedback-active-learning/
 project_type: 'Research Project'
 project_year: 2026
 project_topics:
-	- RLHF
-	- Active Learning
-	- LLM Alignment
+  - RLHF
+  - Active Learning
+  - LLM Alignment
 paperurl: 'https://arxiv.org/abs/2603.09692'
 codeurl: 'https://github.com/lasgroup/ActiveUltraFeedback'
 dataseturl: 'https://huggingface.co/ActiveUltraFeedback'
