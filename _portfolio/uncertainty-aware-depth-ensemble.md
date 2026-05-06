@@ -1,14 +1,17 @@
 ---
-title: "ETH Computational Intelligence Lab 2025: Uncertainty-Aware Ensemble for Monocular Depth Estimation 2"
-excerpt: "Finetuning a MixtureofExperts-Metamodel for Monocular Depth Estimation by utilizing Epistemic Uncertainty Estimation <br/><img src='/images/cil_image.png' style='width:70% !important; height:auto; display:block; margin-top:8px;'>"
+title: "ETH Computational Intelligence Lab 2025: Uncertainty-Aware Ensemble for Monocular Depth Estimation"
+excerpt: "Fine-tuning a mixture-of-experts meta-model for monocular depth estimation using epistemic uncertainty estimates <br/><img src='/images/cil_image.png' style='width:60% !important; height:auto; display:block; margin-top:8px;'>"
 collection: portfolio
+permalink: /portfolio/uncertainty-aware-depth-ensemble/
 ---
 
 In this work, we explored whether the per-
 formance of the state-of-the-art models on the
 Monocular Depth Estimation task can be im-
 proved by averaging multiple models’ predictions
-based on the model’s uncertainty. To verify this
+based on the model’s uncertainty. 
+
+To verify this
 assumption, we fine-tuned a Dense Prediction
 Transformer model modified to predict uncer-
 tainty using Gaussian Negative Log Likelihood
@@ -21,10 +24,11 @@ this approach decreases siRMSE compared to the
 performance of the base model. Additionally, we
 identified that this approach is sensitive to hyper-
 parameters and can suffer from mode collapse.
+
 Finally, our results show that the meta-model reg-
 ularly combines the ensemble’s individual predic-
 tions in a manner consistent with the intuition of
 the expert’s room-type domain knowledge and
-generalizes to ambiguous images.
+generalizes to ambiguous images.s such as sensitivity to hyperparameters and the risk of mode collapse.
 
-The GitHub repository is at [Computational Intelligence Lab 2025 Project Repository](https://github.com/mwertich/CIL) and the corresponding report at [Computational Intelligence Lab 2025 Project Report]({{ 'files/CIL_project_report.pdf' | relative_url }}){:download}
+Resources: [Code on GitHub](https://github.com/mwertich/CIL), [Project Report]({{ 'files/CIL_project_report.pdf' | relative_url }}){:download}
