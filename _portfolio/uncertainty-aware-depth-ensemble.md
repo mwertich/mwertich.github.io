@@ -3,32 +3,18 @@ title: "ETH Computational Intelligence Lab 2025: Uncertainty-Aware Ensemble for 
 excerpt: "Fine-tuning a mixture-of-experts meta-model for monocular depth estimation using epistemic uncertainty estimates <br/><img src='/images/cil_image.png' style='width:60% !important; height:auto; display:block; margin-top:8px;'>"
 collection: portfolio
 permalink: /portfolio/uncertainty-aware-depth-ensemble/
+project_type: 'Course Project'
+project_year: 2025
+project_topics:
+	- Computer Vision
+	- Uncertainty Estimation
+	- Ensemble Modeling
+codeurl: 'https://github.com/mwertich/CIL'
+reporturl: '{{ "files/CIL_project_report.pdf" | relative_url }}'
 ---
 
-In this work, we explored whether the per-
-formance of the state-of-the-art models on the
-Monocular Depth Estimation task can be im-
-proved by averaging multiple models’ predictions
-based on the model’s uncertainty. 
+In this project, we explored whether monocular depth estimation can be improved by combining multiple predictors in a way that explicitly accounts for model uncertainty.
 
-To verify this
-assumption, we fine-tuned a Dense Prediction
-Transformer model modified to predict uncer-
-tainty using Gaussian Negative Log Likelihood
-loss. Then, we trained multiple experts by further
-fine-tuning the aforementioned model for differ-
-ent room types. To combine their predictions, we
-trained a separate meta-model that takes the mod-
-els’ uncertainty into account. We showed that
-this approach decreases siRMSE compared to the
-performance of the base model. Additionally, we
-identified that this approach is sensitive to hyper-
-parameters and can suffer from mode collapse.
+To test this idea, we fine-tuned a Dense Prediction Transformer variant that predicts both depth and epistemic uncertainty using a Gaussian negative log-likelihood objective. We then trained several experts for different room types and combined them with a separate meta-model that uses the experts' uncertainty estimates when forming the final prediction.
 
-Finally, our results show that the meta-model reg-
-ularly combines the ensemble’s individual predic-
-tions in a manner consistent with the intuition of
-the expert’s room-type domain knowledge and
-generalizes to ambiguous images.s such as sensitivity to hyperparameters and the risk of mode collapse.
-
-Resources: [Code on GitHub](https://github.com/mwertich/CIL), [Project Report]({{ 'files/CIL_project_report.pdf' | relative_url }}){:download}
+The resulting ensemble improved siRMSE over the base model and often combined predictions in a way that matched the intended room-specific specialization of the experts. At the same time, the project highlighted practical challenges such as sensitivity to hyperparameters and the risk of mode collapse.

@@ -47,6 +47,17 @@ layout: default
         {% if page.collection == 'publications' and page.author_note %}
           <p style="font-size: smaller; margin-top: -0.75em;"><em>{{ page.author_note }}</em></p>
         {% endif %}
+        {% if page.collection == 'portfolio' %}
+          {% assign has_project_meta = false %}
+          {% capture project_meta %}
+            {% if page.project_type %}{% assign has_project_meta = true %}<strong>Type:</strong> {{ page.project_type }}{% endif %}
+            {% if page.project_year %}{% if has_project_meta %} | {% endif %}{% assign has_project_meta = true %}<strong>Year:</strong> {{ page.project_year }}{% endif %}
+            {% if page.project_topics %}{% if has_project_meta %} | {% endif %}{% assign has_project_meta = true %}<strong>Topics:</strong> {{ page.project_topics | join: ", " }}{% endif %}
+          {% endcapture %}
+          {% if has_project_meta %}
+            <p style="font-size: smaller;">{{ project_meta | strip }}</p>
+          {% endif %}
+        {% endif %}
         </header>
       {% endunless %}
 
@@ -65,6 +76,21 @@ layout: default
           {% endcapture %}
           {% if has_publication_links %}
             <p style="font-size: smaller">{{ publication_links | strip }}</p>
+          {% endif %}
+        {% endif %}
+
+        {% if page.collection == 'portfolio' %}
+          {% assign has_project_links = false %}
+          {% capture project_links %}
+            {% if page.paperurl %}{% assign has_project_links = true %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
+            {% if page.codeurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
+            {% if page.dataseturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.dataseturl }}">Dataset</a>{% endif %}
+            {% if page.reporturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.reporturl }}">Report</a>{% endif %}
+            {% if page.thesisurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.thesisurl }}">Thesis</a>{% endif %}
+            {% if page.posterurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ page.posterurl }}">Poster</a>{% endif %}
+          {% endcapture %}
+          {% if has_project_links %}
+            <p style="font-size: smaller">{{ project_links | strip }}</p>
           {% endif %}
         {% endif %}
 

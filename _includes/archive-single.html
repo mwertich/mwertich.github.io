@@ -52,6 +52,17 @@
     {% if post.collection == 'publications' and post.author_note %}
       <p style="font-size: smaller; margin-top: -0.75em;"><em>{{ post.author_note }}</em></p>
     {% endif %}
+    {% if post.collection == 'portfolio' %}
+      {% assign has_project_meta = false %}
+      {% capture project_meta %}
+        {% if post.project_type %}{% assign has_project_meta = true %}<strong>Type:</strong> {{ post.project_type }}{% endif %}
+        {% if post.project_year %}{% if has_project_meta %} | {% endif %}{% assign has_project_meta = true %}<strong>Year:</strong> {{ post.project_year }}{% endif %}
+        {% if post.project_topics %}{% if has_project_meta %} | {% endif %}{% assign has_project_meta = true %}<strong>Topics:</strong> {{ post.project_topics | join: ", " }}{% endif %}
+      {% endcapture %}
+      {% if has_project_meta %}
+        <p style="font-size: smaller;">{{ project_meta | strip }}</p>
+      {% endif %}
+    {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
@@ -71,6 +82,21 @@
       {% endcapture %}
       {% if has_publication_links %}
         <p>{{ publication_links | strip }}</p>
+      {% endif %}
+    {% endif %}
+
+    {% if post.collection == 'portfolio' %}
+      {% assign has_project_links = false %}
+      {% capture project_links %}
+        {% if post.paperurl %}{% assign has_project_links = true %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.codeurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.dataseturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.dataseturl }}">Dataset</a>{% endif %}
+        {% if post.reporturl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.reporturl }}">Report</a>{% endif %}
+        {% if post.thesisurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.thesisurl }}">Thesis</a>{% endif %}
+        {% if post.posterurl %}{% if has_project_links %} | {% endif %}{% assign has_project_links = true %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
+      {% endcapture %}
+      {% if has_project_links %}
+        <p>{{ project_links | strip }}</p>
       {% endif %}
     {% endif %}
 
