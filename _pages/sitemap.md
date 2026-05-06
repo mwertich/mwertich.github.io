@@ -9,29 +9,35 @@ author_profile: true
 
 A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
+{% assign visible_pages = site.pages | where_exp: "item", "item.title and item.url != '/sitemap/' and item.url != '/404.html' and item.sitemap != false" | sort: "title" %}
+{% assign visible_posts = site.posts | where_exp: "item", "item.title and item.sitemap != false" | sort: "date" | reverse %}
+
 <h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
+<ul>
+{% for item in visible_pages %}
+  <li><a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}
+</ul>
 
+{% if visible_posts.size > 0 %}
 <h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
+<ul>
+{% for item in visible_posts %}
+  <li><a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a> <small>({{ item.date | date: "%Y-%m-%d" }})</small></li>
 {% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
+</ul>
+{% endif %}
 
 {% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
   {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
+    {% assign visible_docs = collection.docs | where_exp: "item", "item.title and item.sitemap != false" | sort: "title" %}
+    {% if visible_docs.size > 0 %}
+<h2>{{ collection.label | capitalize }}</h2>
+<ul>
+      {% for item in visible_docs %}
+  <li><a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+</ul>
+    {% endif %}
   {% endunless %}
-{% endfor %}
 {% endfor %}
