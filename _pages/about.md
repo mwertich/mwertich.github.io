@@ -7,38 +7,33 @@ redirect_from:
  - /about.html
 ---
 
-Personal Info
+Overview
 ======
-Hi, I am Martin Wertich, a second-year MSc student in Computer Science at ETH Zurich. 
+Hi, I am Martin Wertich, a second-year MSc student in Computer Science at ETH Zurich with a focus on machine learning theory. My research interests lie at the intersection of learning theory, mathematical statistics, and large randomized systems, with particular emphasis on developing mathematically grounded explanations for modern machine learning methods.
 
-My interests lie in the field of Theoretical Machine Learning, with the focus on the mathematical intuition behind it. I am particularly interested in the mathematics of Learning Theory, Data Science, and large randomized systems such as Random Matrix Theory or Random Graphs. My goal is to pursue a PhD in Theoretical Machine Learning after completing my Master's degree, to make a small contribution to understanding the inner workings of advanced ML methods, even for non-mathematicians. 
+I am especially interested in questions where rigorous analysis meets practical relevance: why learning algorithms generalize, how complex models behave under uncertainty, and which mathematical structures make modern ML systems expressive and robust. In the long term, I hope to contribute to a clearer theoretical understanding of advanced machine learning methods and to pursue doctoral research in this area.
 
-I worked as a Research Assistant at the ETH AI Center under the supervision of Barna Paztor, Ido Hakimi and Prof. Andreas Krause from the Learning and Adaptive Systems Group until January 2026, where my student colleagues and I developed an RLHF (Reinforcement Learning from Human Feedback) pipeline for LLMs (Large Language Models) using Active Learning. We submitted our paper to ICML 2026 (International Conference on Machine Learning), where it got accepted in our first attempt. You can take a look at the arXiv version [ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning](https://arxiv.org/abs/2603.09692).
-Currently, I work on a semester project under Julia Kostin and Prof. Fanny Yang on trying to find and prove new guarantees for Compositional Generalization under noise for additive energy distributions. 
+Current Work
+------
+Until April 2026, I worked for the ETH AI Center under the supervision of Barna Pásztor, Ido Hakimi, and Prof. Andreas Krause in the Learning and Adaptive Systems Group. There, I contributed to ActiveUltraFeedback, an RLHF pipeline for large language models based on active learning. The resulting paper was accepted to ICML 2026 and is available on [arXiv](https://arxiv.org/abs/2603.09692).
+
+I am currently working on a semester project under Julia Kostin and Prof. Fanny Yang on theoretical guarantees for compositional generalization under noise in additive energy-based settings.
 
 Research Interests
 ------
-The field of Machine Learning Theory fascinates me the most in Computer Science, as it is one of the few CS fields that combines both mathematical rigor and practical relevance for the future. The advancement of new technologies, particularly in Generative Modelling, surpasses our understanding by an increasingly wide margin, and we need to catch up with the forefront of Machine Learning Research.
+My main research interest is machine learning theory, especially problems that combine mathematical rigor with clear implications for modern learning systems. I am particularly drawn to learning theory, random matrix/graph phenomena, and the statistical structure underlying high-dimensional models.
 
-I find it particularly exciting to puzzle over mathematical proofs, even if it is often initially frustrating and takes a tremendous amount of time (and pain:)), because every solved or unsolved proof advances me and prepares me for the next potentially more difficult one.
-I am particularly impressed by the theoretical CS research groups (Statistical Machine Learning Group, Decision Intelligence Group, Institute for Operations Research
-, Learning and Adaptive Systems Lab) at ETH, where doctoral students advance their research with difficult novel proofs.
+What I find most compelling about theoretical machine learning is that it forces us to move beyond intuition alone. Many of the most successful methods in modern AI work far better than our theory currently explains. Bridging that gap, even incrementally, is what motivates me.
 
-
-Short Biography
+Background
 ------
+I completed my bachelor's degree at Johannes Gutenberg University Mainz, where I became increasingly interested in the mathematical side of computer science. My bachelor's thesis focused on the mathematical structure of attention layers in Transformer models and introduced me more deeply to the theoretical questions that now shape my work.
 
-I obtained my Bachelor of Science degree at Johannes Gutenberg University in Mainz, where I quickly realized that the mathematical subjects, particularly machine learning and mathematical modeling, best matched my interests, in contrast to the more applied subjects. In my bachelor's thesis, I analyzed the mathematics of Attention Layers in Transformer models.
+At ETH Zurich, I have complemented this theoretical focus with teaching and research experience. I worked as a teaching assistant for Stochastics and Machine Learning and as an assistant for Introduction to Machine Learning, where I contributed to improvements to Ethel.
 
-Fortunately, I had the opportunity to join ETH as a Master's student, ranked as the best university in Continental Europe for Computer Science. ETH excels in Computer Science and Mathematics, equipping its students with a solid foundation to make significant advances in these fields. 
+Before and alongside academia, I also gained industry experience in machine learning and software engineering. At Schott, I worked on explainable AI for large time-series data streams, and at Envision Entertainment, I contributed as a software developer to the strategy game Pioneers of Pagonia.
 
-I enjoy teaching students and assisting professors, which I was able to do at ETH as a teaching assistant in Stochastics and Machine Learning (D-MAVT Bachelor) and as a research assistant in Introduction to Machine Learning, where I work on improving Ethel. 
-
-Nonetheless, I also worked outside the academic bubble during my bachelor's degree. I started as an ML engineer, working as a Werkstudent at Schott in Mainz, where I primarily investigated Explainable AI for large time-series data streams. After that, I worked as an intern at Envision Entertainment in Ingelheim as a software developer on the strategy computer game "Pioneers of Pagonia", which was already released in Early Access, but is yet to be fully released.
-
-Hobbies & Interests
+Outside Research
 ------
-
-I love the Swiss Alps, and if ETH permits time, I would like to explore them throughout the country. I go hiking and climbing in the summer, while skiing and cross-country skiing during winter. 
-Moreover, I am a fan of board and card games and enjoy playing them to socialize during a game night with my ETH colleagues.
+Outside academic work, I enjoy hiking, climbing, skiing, and cross-country skiing, especially in the Swiss Alps. I also like board and card games, which are an excellent excuse to spend time with friends and colleagues.
 
