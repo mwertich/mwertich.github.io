@@ -14,7 +14,7 @@ bibtexurl: 'https://arxiv.org/bibtex/2603.09692'
 blogurl: 'https://lasgroup.github.io/rlhf/ActiveUltraFeedback.html'
 codeurl: 'https://github.com/lasgroup/ActiveUltraFeedback'
 dataseturl: 'https://huggingface.co/ActiveUltraFeedback'
-posterurl: '{{ "files/Poster_ActiveUltraFeedback.pdf" | relative_url }}'
+posterurl: '/files/Poster_ActiveUltraFeedback.pdf'
 citation: '@misc{melikidze2026activeultrafeedbackefficientpreferencedata,
       title={ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning}, 
       author={Davit Melikidze and Marian Schneider and Jessica Lam and Martin Wertich and Ido Hakimi and Barna Pásztor and Andreas Krause},
