@@ -21,7 +21,7 @@ redirect_from:
 
 Current Work
 ------
-From February 2025 - April 2026, I worked for the ETH AI Center under the supervision of Barna Pásztor, Ido Hakimi, and Prof. Andreas Krause in the Learning and Adaptive Systems Group. There, I contributed to ActiveUltraFeedback, an RLHF pipeline for large language models based on active learning. The resulting paper was accepted to ICML 2026 and is available on [arXiv](https://arxiv.org/abs/2603.09692).
+From February 2025 - June 2026, I worked for the ETH AI Center under the supervision of Barna Pásztor, Ido Hakimi, and Prof. Andreas Krause in the Learning and Adaptive Systems Group. There, I contributed to ActiveUltraFeedback, an RLHF pipeline for large language models based on active learning. The resulting paper was accepted to ICML 2026 and is available on [arXiv](https://arxiv.org/abs/2603.09692).
 
 I am currently working on a semester project under Julia Kostin and Prof. Fanny Yang on statistical guarantees for compositional generalization under noise in additive energy-based settings.
 
