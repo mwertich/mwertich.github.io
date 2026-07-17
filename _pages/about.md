@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="home-hero">
-	<p class="home-hero__lead">I am an MSc student in Computer Science at ETH Zurich working on machine learning theory, with a focus on learning-theoretic questions, high-dimensional statistics, and the mathematical structure of modern ML systems.</p>
+	<p class="home-hero__lead">I am an MSc student in Computer Science at ETH Zurich working on machine learning theory, with a focus on out-of-distribution generalization, statistical learning theorety, and high-dimensional statistics.</p>
 
 	<p class="home-hero__text">My goal is to better understand why advanced learning methods generalize, how they behave under uncertainty, and which mathematical principles make them expressive and robust.</p>
 
@@ -23,7 +23,7 @@ Current Work
 ------
 From February 2025 - April 2026, I worked for the ETH AI Center under the supervision of Barna Pásztor, Ido Hakimi, and Prof. Andreas Krause in the Learning and Adaptive Systems Group. There, I contributed to ActiveUltraFeedback, an RLHF pipeline for large language models based on active learning. The resulting paper was accepted to ICML 2026 and is available on [arXiv](https://arxiv.org/abs/2603.09692).
 
-I am currently working on a semester project under Julia Kostin and Prof. Fanny Yang on theoretical guarantees for compositional generalization under noise in additive energy-based settings.
+I am currently working on a semester project under Julia Kostin and Prof. Fanny Yang on statistical guarantees for compositional generalization under noise in additive energy-based settings.
 
 Research Interests
 ------
