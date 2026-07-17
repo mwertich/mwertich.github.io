@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="home-hero">
-	<p class="home-hero__lead">I am an MSc student in Computer Science at ETH Zurich working on machine learning theory, with a focus on out-of-distribution generalization, statistical learning theorety, and high-dimensional statistics.</p>
+	<p class="home-hero__lead">I am an MSc student in Computer Science at ETH Zurich working on machine learning theory, with a focus on out-of-distribution generalization, statistical learning theory, and high-dimensional statistics.</p>
 
 	<p class="home-hero__text">My goal is to better understand why advanced learning methods generalize, how they behave under uncertainty, and which mathematical principles make them expressive and robust.</p>
 
